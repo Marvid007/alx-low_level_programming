@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
  * main - prints all the arguments a program receives.
