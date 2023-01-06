@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 
 /**
  * main - prints all the arguments a program receives.
  *
  * @argc: number of arguments.
- * 
+ *
  * @argv: array of argements.
  *
  * Return: always (0) success.
