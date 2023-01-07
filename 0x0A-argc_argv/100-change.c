@@ -17,13 +17,13 @@ int main(int args, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	c atoi(argv[1]);
+	c = atoi(argv[1]);
 	if (c < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
-	for (c >= 0;)
+	for (;  c >= 0;)
 	{
 		if (c >= 25)
 			c -= 25;
