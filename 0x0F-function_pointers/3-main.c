@@ -1,4 +1,4 @@
-include "3-calc.h"
+include "3-Calc.h"
 /**
  * main - check arguments
  * @argc: argument count
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-
+	/* check i theres only one operator*/
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
