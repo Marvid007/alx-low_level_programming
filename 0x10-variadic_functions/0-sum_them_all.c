@@ -1,9 +1,12 @@
+#include "variadic_functions.h"
 #include <stdarg.h>
 /**
  * sum_them_all - returns the sum of all its parameters.
- * @: number of arguments to be summed.
+ * @n: number of arguments to be summed.
+ * @...: A variable number of parameters to calculate the sum of.
  *
- * Return: sum or 0.
+ * Return: If n == 0 - 0.
+ *         otherwise - the sum of all parameters.
  */
 
 int sum_them_all(const unsigned int n, ...)
