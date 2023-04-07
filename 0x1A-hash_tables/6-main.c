@@ -14,7 +14,7 @@ int main(void)
 	char *key;
 	char *value;
 
-	t = hash_table_create(1024);
+	ht = hash_table_create(1024);
 	hash_table_set(ht, "c", "fun");
 	hash_table_set(ht, "python", "awesome");
 	hash_table_set(ht, "Jennie", "and Jay love asm");
